@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,464 +14,306 @@
   <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
 <body>
-  <a href="https://wa.me/5519991986100" target="_blank" class="wa-float" title="Falar no WhatsApp" rel="noreferrer">
-    <i class="fab fa-whatsapp"></i>
-  </a>
 
-  <header id="header">
-    <div class="header-inner">
-      <a href="#inicio" class="logo-wrap" aria-label="Ir para início">
-        <div class="logo-icon">
-          <span class="logo-emoji">⚡</span>
-        </div>
-        <div class="logo-text">
-          <div class="brand">REIS</div>
-          <div class="sub">Elétrica &amp; Hidráulica</div>
-        </div>
-      </a>
+<a href="https://wa.me/5519991986100" target="_blank" class="wa-float" title="Falar no WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
 
+<header id="header">
+  <div class="header-inner">
+    <a href="#inicio" class="logo-wrap">
+      <div class="logo-icon"><span style="position:relative;z-index:1;font-size:22px">⚡</span></div>
+      <div class="logo-text">
+        <div class="brand">REIS</div>
+        <div class="sub">Elétrica &amp; Hidráulica</div>
+      </div>
+    </a>
+
+    <div class="header-right">
       <nav>
         <a href="#inicio">Início</a>
         <a href="#servicos">Serviços</a>
         <a href="#sobre">Sobre</a>
         <a href="#diferenciais">Diferenciais</a>
         <a href="#contato">Contato</a>
-        <a href="https://wa.me/5519991986100" target="_blank" class="btn-orcamento" rel="noreferrer">Solicitar Orçamento</a>
+        <a href="https://wa.me/5519991986100" target="_blank" class="btn-orcamento desktop-orcamento">Solicitar Orçamento</a>
       </nav>
 
-      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-controls="mobileMenu" aria-expanded="false" type="button">
-        <span></span><span></span><span></span>
+      <button class="theme-toggle" id="themeToggle" title="Alternar tema" aria-label="Alternar entre tema claro e escuro">
+        <i class="fas fa-moon toggle-icon toggle-icon-moon"></i>
+        <div class="toggle-thumb" id="toggleThumb"><i class="fas fa-moon" style="font-size:9px"></i></div>
+        <i class="fas fa-sun toggle-icon toggle-icon-sun"></i>
       </button>
-    </div>
-  </header>
 
-  <div class="mobile-menu" id="mobileMenu">
-    <a href="#inicio">Início</a>
-    <a href="#servicos">Serviços</a>
-    <a href="#sobre">Sobre</a>
-    <a href="#diferenciais">Diferenciais</a>
-    <a href="#contato">Contato</a>
-    <a href="https://wa.me/5519991986100" target="_blank" class="btn-orcamento" rel="noreferrer">Solicitar Orçamento</a>
-  </div>
-
-  <section id="inicio" class="hero">
-    <div class="hero-bg"></div>
-    <div class="hero-grid"></div>
-    <div class="hero-glow"></div>
-
-    <div class="hero-inner">
-      <div class="hero-content">
-        <div class="hero-badge">
-          <i class="fas fa-circle"></i>
-          Campinas e Região • Atendimento Rápido
-        </div>
-        <h1 class="hero-title">
-          Soluções Elétricas<br>
-          e Hidráulicas com<br>
-          <span class="accent-amber">Qualidade</span> e
-          <span class="accent-blue">Confiança</span>
-        </h1>
-        <p class="hero-sub">
-          Atendimento rápido para instalações, manutenções e reparos residenciais e comerciais em Campinas e região.
-        </p>
-        <div class="hero-btns">
-          <a href="https://wa.me/5519991986100" target="_blank" class="btn-primary" rel="noreferrer">
-            <i class="fas fa-file-alt"></i> Solicitar Orçamento
-          </a>
-          <a href="https://wa.me/5519991986100" target="_blank" class="btn-secondary" rel="noreferrer">
-            <i class="fab fa-whatsapp"></i> Falar no WhatsApp
-          </a>
-        </div>
-        <div class="hero-stats">
-          <div class="stat">
-            <div class="stat-num">500+</div>
-            <div class="stat-label">Clientes Atendidos</div>
-          </div>
-          <div class="stat">
-            <div class="stat-num">10+</div>
-            <div class="stat-label">Anos de Experiência</div>
-          </div>
-          <div class="stat">
-            <div class="stat-num">100%</div>
-            <div class="stat-label">Satisfação Garantida</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero-visual">
-        <div class="hero-visual-wrap">
-          <div class="float-icon"><i class="fas fa-bolt"></i></div>
-          <div class="float-icon"><i class="fas fa-tint"></i></div>
-          <div class="float-icon"><i class="fas fa-check-circle"></i></div>
-          <div class="hero-card">
-            <div class="hero-logo-area">⚡</div>
-            <div class="hero-card-title">REIS</div>
-            <div class="hero-card-sub">Elétrica &amp; Hidráulica</div>
-            <div class="hero-card-slogan">Soluções Inteligentes, Resultados que Duram.</div>
-            <div class="hero-pills">
-              <span class="pill amber">⚡ Elétrica</span>
-              <span class="pill blue">💧 Hidráulica</span>
-              <span class="pill">🛡️ Segurança</span>
-              <span class="pill amber">⚡ Agilidade</span>
-              <span class="pill blue">✅ Qualidade</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <div class="trust-bar">
-    <div class="trust-inner">
-      <div class="trust-item"><i class="fas fa-shield-alt"></i><span>Segurança em Cada Serviço</span></div>
-      <div class="trust-item"><i class="fas fa-clock"></i><span>Atendimento Ágil</span></div>
-      <div class="trust-item"><i class="fas fa-medal"></i><span>Qualidade Comprovada</span></div>
-      <div class="trust-item"><i class="fas fa-handshake"></i><span>Compromisso com o Cliente</span></div>
-      <div class="trust-item"><i class="fas fa-map-marker-alt"></i><span>Campinas e Região</span></div>
+      <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
     </div>
   </div>
+</header>
 
-  <section id="servicos">
-    <div class="section-inner">
-      <div class="services-header reveal">
-        <div class="section-label">O que fazemos</div>
-        <h2 class="section-title">Nossos Serviços</h2>
-        <p class="section-sub">Cobertura completa em serviços elétricos, hidráulicos e gerais para sua casa ou empresa.</p>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#inicio" onclick="closeMenu()">Início</a>
+  <a href="#servicos" onclick="closeMenu()">Serviços</a>
+  <a href="#sobre" onclick="closeMenu()">Sobre</a>
+  <a href="#diferenciais" onclick="closeMenu()">Diferenciais</a>
+  <a href="#contato" onclick="closeMenu()">Contato</a>
+  <div class="mobile-theme-row">
+    <span id="mobileThemeLabel">Tema Escuro</span>
+    <button class="theme-toggle" id="themeToggleMobile" aria-label="Alternar tema">
+      <i class="fas fa-moon toggle-icon toggle-icon-moon"></i>
+      <div class="toggle-thumb"><i class="fas fa-moon" style="font-size:9px"></i></div>
+      <i class="fas fa-sun toggle-icon toggle-icon-sun"></i>
+    </button>
+  </div>
+  <a href="https://wa.me/5519991986100" target="_blank" class="btn-orcamento" onclick="closeMenu()">Solicitar Orçamento</a>
+</div>
+
+<section id="inicio" class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge"><i class="fas fa-circle"></i> Campinas e Região • Atendimento Rápido</div>
+      <h1 class="hero-title">
+        Soluções Elétricas<br>e Hidráulicas com<br>
+        <span class="accent-amber">Qualidade</span> e <span class="accent-blue">Confiança</span>
+      </h1>
+      <p class="hero-sub">Atendimento rápido para instalações, manutenções e reparos residenciais e comerciais em Campinas e região.</p>
+      <div class="hero-btns">
+        <a href="https://wa.me/5519991986100" target="_blank" class="btn-primary"><i class="fas fa-file-alt"></i> Solicitar Orçamento</a>
+        <a href="https://wa.me/5519991986100" target="_blank" class="btn-secondary"><i class="fab fa-whatsapp"></i> Falar no WhatsApp</a>
       </div>
-
-      <div class="services-grid">
-        <div class="service-card reveal">
-          <div class="card-icon amber"><i class="fas fa-bolt"></i></div>
-          <h3>Instalações Elétricas</h3>
-          <p>Instalações residenciais e comerciais com segurança e dentro das normas técnicas vigentes.</p>
-        </div>
-        <div class="service-card reveal">
-          <div class="card-icon amber"><i class="fas fa-microchip"></i></div>
-          <h3>Quadros Elétricos</h3>
-          <p>Montagem, troca de disjuntores e manutenção de quadros de distribuição elétrica.</p>
-        </div>
-        <div class="service-card reveal">
-          <div class="card-icon amber"><i class="fas fa-plug"></i></div>
-          <h3>Tomadas e Interruptores</h3>
-          <p>Instalação e substituição de tomadas, interruptores e luminárias em geral.</p>
-        </div>
-        <div class="service-card reveal">
-          <div class="card-icon amber"><i class="fas fa-tools"></i></div>
-          <h3>Manutenção Preventiva</h3>
-          <p>Inspeção e manutenção preventiva e corretiva para evitar falhas e garantir segurança.</p>
-        </div>
-        <div class="service-card reveal">
-          <div class="card-icon amber"><i class="fas fa-search"></i></div>
-          <h3>Identificação de Curtos</h3>
-          <p>Diagnóstico e reparo de curtos-circuitos e sobrecargas na rede elétrica.</p>
-        </div>
-
-        <div class="service-card reveal">
-          <div class="card-icon"><i class="fas fa-tint"></i></div>
-          <h3>Reparo de Vazamentos</h3>
-          <p>Identificação e reparo rápido de vazamentos em encanamentos, registros e conexões.</p>
-        </div>
-        <div class="service-card reveal">
-          <div class="card-icon"><i class="fas fa-faucet"></i></div>
-          <h3>Torneiras e Registros</h3>
-          <p>Instalação e manutenção de torneiras, registros, válvulas e acessórios hidráulicos.</p>
-        </div>
-        <div class="service-card reveal">
-          <div class="card-icon"><i class="fas fa-water"></i></div>
-          <h3>Desentupimentos</h3>
-          <p>Desentupimento de pias, ralos, vasos sanitários e rede de esgoto em geral.</p>
-        </div>
-        <div class="service-card reveal">
-          <div class="card-icon"><i class="fas fa-tank-water"></i></div>
-          <h3>Limpeza de Caixa d'Água</h3>
-          <p>Limpeza e higienização de caixas d'água e caixas de gordura com segurança.</p>
-        </div>
-        <div class="service-card reveal">
-          <div class="card-icon"><i class="fas fa-pipe"></i></div>
-          <h3>Substituição de Encanamentos</h3>
-          <p>Troca e instalação de encanamentos e conexões hidráulicas de todas as dimensões.</p>
-        </div>
-
-        <div class="service-card reveal">
-          <div class="card-icon green"><i class="fas fa-home"></i></div>
-          <h3>Atendimento Residencial</h3>
-          <p>Soluções completas para residências, desde pequenos reparos até grandes instalações.</p>
-        </div>
-        <div class="service-card reveal">
-          <div class="card-icon green"><i class="fas fa-building"></i></div>
-          <h3>Atendimento Comercial</h3>
-          <p>Serviços para empresas, comércios e prédios com agilidade e profissionalismo.</p>
-        </div>
+      <div class="hero-stats">
+        <div class="stat"><div class="stat-num">500+</div><div class="stat-label">Clientes Atendidos</div></div>
+        <div class="stat"><div class="stat-num">10+</div><div class="stat-label">Anos de Experiência</div></div>
+        <div class="stat"><div class="stat-num">100%</div><div class="stat-label">Satisfação Garantida</div></div>
       </div>
     </div>
-  </section>
-
-  <section id="sobre">
-    <div class="section-inner">
-      <div class="sobre-grid">
-        <div class="sobre-content reveal">
-          <div class="section-label">Quem Somos</div>
-          <h2 class="section-title">Sobre a <span class="inline-accent">Reis</span> Elétrica &amp; Hidráulica</h2>
-          <p class="sobre-text">A Reis Elétrica &amp; Hidráulica é especializada em soluções elétricas e hidráulicas com foco em qualidade, segurança e atendimento ágil.</p>
-          <p class="sobre-text">Atendemos residências e empresas com profissionalismo, transparência e compromisso com a excelência em cada serviço prestado. Nossa equipe é altamente capacitada e dedicada a oferecer os melhores resultados.</p>
-          <p class="sobre-text">Atuamos em Campinas e região, sempre priorizando a satisfação do cliente e a qualidade técnica dos trabalhos realizados.</p>
-          <div class="sobre-action">
-            <a href="https://wa.me/5519991986100" target="_blank" class="btn-primary" rel="noreferrer">
-              <i class="fab fa-whatsapp"></i> Fale Conosco
-            </a>
-          </div>
-        </div>
-        <div class="sobre-visual reveal">
-          <div class="sobre-card-main">
-            <div class="sobre-big-icon">⚡💧</div>
-            <div class="sobre-card-text">Soluções Inteligentes,<br>Resultados que Duram.</div>
-            <div class="sobre-tagline">"Do pequeno reparo à grande solução, estamos com você!"</div>
-            <div class="sobre-corner"></div>
-            <div class="sobre-stats">
-              <div class="sobre-stat">
-                <div class="sobre-stat-num amber">500+</div>
-                <div class="sobre-stat-label">Clientes</div>
-              </div>
-              <div class="sobre-stat">
-                <div class="sobre-stat-num blue">10+</div>
-                <div class="sobre-stat-label">Anos</div>
-              </div>
-              <div class="sobre-stat">
-                <div class="sobre-stat-num green">100%</div>
-                <div class="sobre-stat-label">Satisfação</div>
-              </div>
-            </div>
+    <div class="hero-visual">
+      <div style="position:relative">
+        <div class="float-icon"><i class="fas fa-bolt"></i></div>
+        <div class="float-icon"><i class="fas fa-tint"></i></div>
+        <div class="float-icon"><i class="fas fa-check-circle"></i></div>
+        <div class="hero-card">
+          <div class="hero-logo-area">⚡</div>
+          <div class="hero-card-title">REIS</div>
+          <div class="hero-card-sub">Elétrica &amp; Hidráulica</div>
+          <div style="font-size:11px;color:var(--text-muted);margin-bottom:20px;font-style:italic">Soluções Inteligentes, Resultados que Duram.</div>
+          <div class="hero-pills">
+            <span class="pill amber">⚡ Elétrica</span>
+            <span class="pill blue">💧 Hidráulica</span>
+            <span class="pill">🛡️ Segurança</span>
+            <span class="pill amber">⚡ Agilidade</span>
+            <span class="pill blue">✅ Qualidade</span>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="diferenciais">
-    <div class="section-inner">
-      <div class="diferenciais-header reveal">
-        <div class="section-label">Por que nos escolher</div>
-        <h2 class="section-title">Nossos Diferenciais</h2>
-        <p class="section-sub">O que nos faz a escolha certa para cuidar da sua residência ou empresa.</p>
+<div class="trust-bar">
+  <div class="trust-inner">
+    <div class="trust-item"><i class="fas fa-shield-alt"></i><span>Segurança em Cada Serviço</span></div>
+    <div class="trust-item"><i class="fas fa-clock"></i><span>Atendimento Ágil</span></div>
+    <div class="trust-item"><i class="fas fa-medal"></i><span>Qualidade Comprovada</span></div>
+    <div class="trust-item"><i class="fas fa-handshake"></i><span>Compromisso com o Cliente</span></div>
+    <div class="trust-item"><i class="fas fa-map-marker-alt"></i><span>Campinas e Região</span></div>
+  </div>
+</div>
+
+<section id="servicos">
+  <div class="section-inner">
+    <div class="services-header reveal">
+      <div class="section-label">O que fazemos</div>
+      <h2 class="section-title">Nossos Serviços</h2>
+      <p class="section-sub">Cobertura completa em serviços elétricos, hidráulicos e gerais para sua casa ou empresa.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal"><div class="card-icon amber"><i class="fas fa-bolt"></i></div><h3>Instalações Elétricas</h3><p>Instalações residenciais e comerciais com segurança e dentro das normas técnicas vigentes.</p></div>
+      <div class="service-card reveal"><div class="card-icon amber"><i class="fas fa-microchip"></i></div><h3>Quadros Elétricos</h3><p>Montagem, troca de disjuntores e manutenção de quadros de distribuição elétrica.</p></div>
+      <div class="service-card reveal"><div class="card-icon amber"><i class="fas fa-plug"></i></div><h3>Tomadas e Interruptores</h3><p>Instalação e substituição de tomadas, interruptores e luminárias em geral.</p></div>
+      <div class="service-card reveal"><div class="card-icon amber"><i class="fas fa-tools"></i></div><h3>Manutenção Preventiva</h3><p>Inspeção e manutenção preventiva e corretiva para evitar falhas e garantir segurança.</p></div>
+      <div class="service-card reveal"><div class="card-icon amber"><i class="fas fa-search"></i></div><h3>Identificação de Curtos</h3><p>Diagnóstico e reparo de curtos-circuitos e sobrecargas na rede elétrica.</p></div>
+      <div class="service-card reveal"><div class="card-icon"><i class="fas fa-tint"></i></div><h3>Reparo de Vazamentos</h3><p>Identificação e reparo rápido de vazamentos em encanamentos, registros e conexões.</p></div>
+      <div class="service-card reveal"><div class="card-icon"><i class="fas fa-faucet"></i></div><h3>Torneiras e Registros</h3><p>Instalação e manutenção de torneiras, registros, válvulas e acessórios hidráulicos.</p></div>
+      <div class="service-card reveal"><div class="card-icon"><i class="fas fa-water"></i></div><h3>Desentupimentos</h3><p>Desentupimento de pias, ralos, vasos sanitários e rede de esgoto em geral.</p></div>
+      <div class="service-card reveal"><div class="card-icon"><i class="fas fa-box"></i></div><h3>Limpeza de Caixa d'Água</h3><p>Limpeza e higienização de caixas d'água e caixas de gordura com segurança.</p></div>
+      <div class="service-card reveal"><div class="card-icon"><i class="fas fa-wrench"></i></div><h3>Substituição de Encanamentos</h3><p>Troca e instalação de encanamentos e conexões hidráulicas de todas as dimensões.</p></div>
+      <div class="service-card reveal"><div class="card-icon green"><i class="fas fa-home"></i></div><h3>Atendimento Residencial</h3><p>Soluções completas para residências, desde pequenos reparos até grandes instalações.</p></div>
+      <div class="service-card reveal"><div class="card-icon green"><i class="fas fa-building"></i></div><h3>Atendimento Comercial</h3><p>Serviços para empresas, comércios e prédios com agilidade e profissionalismo.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="sobre">
+  <div class="section-inner">
+    <div class="sobre-grid">
+      <div class="sobre-content reveal">
+        <div class="section-label">Quem Somos</div>
+        <h2 class="section-title">Sobre a <span style="color:var(--amber)">Reis</span> Elétrica &amp; Hidráulica</h2>
+        <p class="sobre-text">A Reis Elétrica &amp; Hidráulica é especializada em soluções elétricas e hidráulicas com foco em qualidade, segurança e atendimento ágil.</p>
+        <p class="sobre-text">Atendemos residências e empresas com profissionalismo, transparência e compromisso com a excelência em cada serviço prestado. Nossa equipe é altamente capacitada e dedicada a oferecer os melhores resultados.</p>
+        <p class="sobre-text">Atuamos em Campinas e região, sempre priorizando a satisfação do cliente e a qualidade técnica dos trabalhos realizados.</p>
+        <div style="margin-top:32px"><a href="https://wa.me/5519991986100" target="_blank" class="btn-primary"><i class="fab fa-whatsapp"></i> Fale Conosco</a></div>
       </div>
-      <div class="diferenciais-grid">
-        <div class="diferencial-card reveal">
-          <div class="dif-icon"><i class="fas fa-bolt"></i></div>
-          <div class="dif-content">
-            <h3>Atendimento Rápido</h3>
-            <p>Respondemos com agilidade e agendamos o serviço no menor tempo possível para você.</p>
-          </div>
-        </div>
-        <div class="diferencial-card reveal">
-          <div class="dif-icon"><i class="fas fa-shield-alt"></i></div>
-          <div class="dif-content">
-            <h3>Segurança em Cada Serviço</h3>
-            <p>Todos os serviços são executados seguindo rigorosamente as normas de segurança técnica.</p>
-          </div>
-        </div>
-        <div class="diferencial-card reveal">
-          <div class="dif-icon"><i class="fas fa-user-check"></i></div>
-          <div class="dif-content">
-            <h3>Profissionais Qualificados</h3>
-            <p>Nossa equipe é treinada e experiente, garantindo excelência técnica em cada trabalho.</p>
-          </div>
-        </div>
-        <div class="diferencial-card reveal">
-          <div class="dif-icon"><i class="fas fa-gem"></i></div>
-          <div class="dif-content">
-            <h3>Soluções Duradouras</h3>
-            <p>Utilizamos materiais de qualidade e técnicas modernas para resultados que duram.</p>
-          </div>
-        </div>
-        <div class="diferencial-card reveal">
-          <div class="dif-icon"><i class="fas fa-file-invoice-dollar"></i></div>
-          <div class="dif-content">
-            <h3>Transparência no Orçamento</h3>
-            <p>Orçamento claro e sem surpresas. Você sabe exatamente o que está contratando.</p>
-          </div>
-        </div>
-        <div class="diferencial-card reveal">
-          <div class="dif-icon"><i class="fas fa-handshake"></i></div>
-          <div class="dif-content">
-            <h3>Compromisso com o Cliente</h3>
-            <p>Sua satisfação é nossa prioridade. Trabalhamos até que o serviço esteja perfeito.</p>
+      <div class="sobre-visual reveal">
+        <div class="sobre-card-main">
+          <div class="sobre-big-icon">⚡💧</div>
+          <div class="sobre-card-text">Soluções Inteligentes,<br>Resultados que Duram.</div>
+          <div class="sobre-tagline">"Do pequeno reparo à grande solução, estamos com você!"</div>
+          <div class="sobre-corner"></div>
+          <div style="margin-top:28px;display:flex;gap:16px;flex-wrap:wrap">
+            <div style="text-align:center"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:28px;color:var(--amber)">500+</div><div style="font-size:12px;color:var(--text-muted)">Clientes</div></div>
+            <div style="text-align:center"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:28px;color:var(--blue-light)">10+</div><div style="font-size:12px;color:var(--text-muted)">Anos</div></div>
+            <div style="text-align:center"><div style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:28px;color:#4ade80">100%</div><div style="font-size:12px;color:var(--text-muted)">Satisfação</div></div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="galeria">
-    <div class="section-inner">
-      <div class="galeria-header reveal">
-        <div class="section-label">Identidade</div>
-        <h2 class="section-title">Nossa Marca</h2>
-        <p class="section-sub">Conheça a identidade visual da Reis Elétrica &amp; Hidráulica.</p>
+<section id="diferenciais">
+  <div class="section-inner">
+    <div class="diferenciais-header reveal">
+      <div class="section-label">Por que nos escolher</div>
+      <h2 class="section-title">Nossos Diferenciais</h2>
+      <p class="section-sub">O que nos faz a escolha certa para cuidar da sua residência ou empresa.</p>
+    </div>
+    <div class="diferenciais-grid">
+      <div class="diferencial-card reveal"><div class="dif-icon"><i class="fas fa-bolt"></i></div><div class="dif-content"><h3>Atendimento Rápido</h3><p>Respondemos com agilidade e agendamos o serviço no menor tempo possível para você.</p></div></div>
+      <div class="diferencial-card reveal"><div class="dif-icon"><i class="fas fa-shield-alt"></i></div><div class="dif-content"><h3>Segurança em Cada Serviço</h3><p>Todos os serviços são executados seguindo rigorosamente as normas de segurança técnica.</p></div></div>
+      <div class="diferencial-card reveal"><div class="dif-icon"><i class="fas fa-user-check"></i></div><div class="dif-content"><h3>Profissionais Qualificados</h3><p>Nossa equipe é treinada e experiente, garantindo excelência técnica em cada trabalho.</p></div></div>
+      <div class="diferencial-card reveal"><div class="dif-icon"><i class="fas fa-gem"></i></div><div class="dif-content"><h3>Soluções Duradouras</h3><p>Utilizamos materiais de qualidade e técnicas modernas para resultados que duram.</p></div></div>
+      <div class="diferencial-card reveal"><div class="dif-icon"><i class="fas fa-file-invoice-dollar"></i></div><div class="dif-content"><h3>Transparência no Orçamento</h3><p>Orçamento claro e sem surpresas. Você sabe exatamente o que está contratando.</p></div></div>
+      <div class="diferencial-card reveal"><div class="dif-icon"><i class="fas fa-handshake"></i></div><div class="dif-content"><h3>Compromisso com o Cliente</h3><p>Sua satisfação é nossa prioridade. Trabalhamos até que o serviço esteja perfeito.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="galeria">
+  <div class="section-inner">
+    <div class="galeria-header reveal">
+      <div class="section-label">Identidade</div>
+      <h2 class="section-title">Nossa Marca</h2>
+      <p class="section-sub">Conheça a identidade visual da Reis Elétrica &amp; Hidráulica.</p>
+    </div>
+    <div class="galeria-grid reveal">
+      <div class="galeria-item" style="background:linear-gradient(135deg,#0a1628,#0e1f3d)"><div class="galeria-placeholder"><span style="font-size:48px">⚡</span><span style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:20px;color:white">REIS</span><span style="font-size:11px;color:#f5a623">ELÉTRICA</span></div></div>
+      <div class="galeria-item" style="background:linear-gradient(135deg,#0a1628,#0e1f3d)"><div class="galeria-placeholder"><span style="font-size:48px">💧</span><span style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:20px;color:white">REIS</span><span style="font-size:11px;color:#3b9eff">HIDRÁULICA</span></div></div>
+      <div class="galeria-item" style="background:linear-gradient(135deg,#f5a623,#e8940f)"><div class="galeria-placeholder"><span style="font-size:42px">🛡️</span><span style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:16px;color:#0a1628">QUALIDADE</span><span style="font-size:11px;color:#0a1628;opacity:.7">SEGURANÇA • CONFIANÇA</span></div></div>
+      <div class="galeria-item" style="background:linear-gradient(135deg,#1a6fe8,#0e1f3d)"><div class="galeria-placeholder"><span style="font-size:38px">⚡💧</span><span style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:14px;color:white;text-align:center">Soluções Inteligentes<br>Resultados que Duram</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="depoimentos">
+  <div class="section-inner">
+    <div class="depoimentos-header reveal">
+      <div class="section-label">O que dizem nossos clientes</div>
+      <h2 class="section-title">Depoimentos</h2>
+      <p class="section-sub">A confiança dos nossos clientes é o nosso maior reconhecimento.</p>
+    </div>
+    <div class="depoimentos-grid">
+      <div class="dep-card reveal">
+        <div class="dep-quote">"</div>
+        <p class="dep-text">Serviço impecável! Chamei para um problema elétrico urgente e eles atenderam rapidinho. Profissionais sérios, explicaram tudo direitinho e o preço foi justo. Super recomendo!</p>
+        <div class="dep-author">
+          <div class="dep-avatar">MR</div>
+          <div><div class="dep-name">Marcos Rodrigues</div><div class="dep-role">Proprietário Residencial – Campinas</div><div class="dep-stars">★★★★★</div></div>
+        </div>
       </div>
-      <div class="galeria-grid reveal">
-        <div class="galeria-item"><img src="./file_0000000052e4720eac0c13556a22bf20.png" alt="Identidade visual Reis 1" /></div>
-        <div class="galeria-item"><img src="./file_00000000bb9071f594ecd83bae7ee879.png" alt="Identidade visual Reis 2" /></div>
-        <div class="galeria-item"><img src="./modelo%204.jpg" alt="Modelo visual Reis 4" /></div>
-        <div class="galeria-item"><img src="./modelo%206.jpg" alt="Modelo visual Reis 6" /></div>
+      <div class="dep-card reveal">
+        <div class="dep-quote">"</div>
+        <p class="dep-text">Tinha um vazamento que eu achei que ia ser um problemão. A equipe da Reis chegou no horário combinado, resolveu tudo rápido e ainda me deu dicas para evitar no futuro. Excelente!</p>
+        <div class="dep-author">
+          <div class="dep-avatar" style="background:linear-gradient(135deg,#f5a623,#c87800)">AF</div>
+          <div><div class="dep-name">Ana Ferreira</div><div class="dep-role">Síndica de Condomínio – Valinhos</div><div class="dep-stars">★★★★★</div></div>
+        </div>
+      </div>
+      <div class="dep-card reveal">
+        <div class="dep-quote">"</div>
+        <p class="dep-text">Contratei para fazer a instalação elétrica completa do meu comércio. Trabalho feito com capricho, dentro do prazo e sem bagunça. Já indiquei para vários amigos!</p>
+        <div class="dep-author">
+          <div class="dep-avatar" style="background:linear-gradient(135deg,#4ade80,#16a34a)">CS</div>
+          <div><div class="dep-name">Carlos Souza</div><div class="dep-role">Empresário – Hortolândia</div><div class="dep-stars">★★★★★</div></div>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="depoimentos">
-    <div class="section-inner">
-      <div class="depoimentos-header reveal">
-        <div class="section-label">O que dizem nossos clientes</div>
-        <h2 class="section-title">Depoimentos</h2>
-        <p class="section-sub">A confiança dos nossos clientes é o nosso maior reconhecimento.</p>
-      </div>
-      <div class="depoimentos-grid">
-        <div class="dep-card reveal">
-          <div class="dep-quote">"</div>
-          <p class="dep-text">Serviço impecável! Chamei para um problema elétrico urgente e eles atenderam rapidinho. Profissionais sérios, explicaram tudo direitinho e o preço foi justo. Super recomendo!</p>
-          <div class="dep-author">
-            <div class="dep-avatar">MR</div>
-            <div>
-              <div class="dep-name">Marcos Rodrigues</div>
-              <div class="dep-role">Proprietário Residencial – Campinas</div>
-              <div class="dep-stars">★★★★★</div>
-            </div>
-          </div>
-        </div>
-        <div class="dep-card reveal">
-          <div class="dep-quote">"</div>
-          <p class="dep-text">Tinha um vazamento que eu achei que ia ser um problemão. A equipe da Reis chegou no horário combinado, resolveu tudo rápido e ainda me deu umas dicas para evitar no futuro. Excelente!</p>
-          <div class="dep-author">
-            <div class="dep-avatar dep-avatar-amber">AF</div>
-            <div>
-              <div class="dep-name">Ana Ferreira</div>
-              <div class="dep-role">Síndica de Condomínio – Valinhos</div>
-              <div class="dep-stars">★★★★★</div>
-            </div>
-          </div>
-        </div>
-        <div class="dep-card reveal">
-          <div class="dep-quote">"</div>
-          <p class="dep-text">Contratei para fazer a instalação elétrica completa do meu comércio. Trabalho feito com capricho, dentro do prazo e sem bagunça. Já indiquei para vários amigos!</p>
-          <div class="dep-author">
-            <div class="dep-avatar dep-avatar-green">CS</div>
-            <div>
-              <div class="dep-name">Carlos Souza</div>
-              <div class="dep-role">Empresário – Hortolândia</div>
-              <div class="dep-stars">★★★★★</div>
-            </div>
-          </div>
-        </div>
-      </div>
+<section id="contato">
+  <div class="cta-glow-left"></div>
+  <div class="cta-glow-right"></div>
+  <div class="cta-inner reveal">
+    <div class="section-label">Fale com a gente</div>
+    <h2 class="section-title">Precisa de um eletricista ou<br><span style="color:var(--amber)">encanador de confiança?</span></h2>
+    <p class="section-sub">Solicite agora seu orçamento sem compromisso. Atendimento rápido para Campinas e região!</p>
+    <div class="cta-btns">
+      <a href="https://wa.me/5519991986100" target="_blank" class="btn-whatsapp"><i class="fab fa-whatsapp" style="font-size:20px"></i> Chamar no WhatsApp</a>
+      <a href="mailto:eletricahidraulicareis@gmail.com" class="btn-secondary"><i class="fas fa-envelope"></i> Enviar E-mail</a>
     </div>
-  </section>
+    <div class="cta-contact-info">
+      <div class="cta-info-item"><i class="fas fa-phone-alt"></i><span>(19) 99198-6100</span></div>
+      <div class="cta-info-item"><i class="fas fa-envelope"></i><span>eletricahidraulicareis@gmail.com</span></div>
+      <div class="cta-info-item"><i class="fas fa-map-marker-alt"></i><span>Campinas e Região</span></div>
+    </div>
+  </div>
+</section>
 
-  <section id="contato">
-    <div class="cta-glow-left"></div>
-    <div class="cta-glow-right"></div>
-    <div class="cta-inner reveal">
-      <div class="section-label">Fale com a gente</div>
-      <h2 class="section-title">
-        Precisa de um eletricista ou<br>
-        <span class="inline-accent">encanador de confiança?</span>
-      </h2>
-      <p class="section-sub">Solicite agora seu orçamento sem compromisso. Atendimento rápido para Campinas e região!</p>
-      <div class="cta-btns">
-        <a href="https://wa.me/5519991986100" target="_blank" class="btn-whatsapp" rel="noreferrer">
-          <i class="fab fa-whatsapp cta-icon"></i>
-          Chamar no WhatsApp
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#inicio" class="logo-wrap" style="display:inline-flex;margin-bottom:4px">
+          <div class="logo-icon"><span style="position:relative;z-index:1;font-size:20px">⚡</span></div>
+          <div class="logo-text"><div class="brand">REIS</div><div class="sub">Elétrica &amp; Hidráulica</div></div>
         </a>
-        <a href="mailto:eletricahidraulicareis@gmail.com" class="btn-secondary">
-          <i class="fas fa-envelope"></i>
-          Enviar E-mail
-        </a>
-      </div>
-      <div class="cta-contact-info">
-        <div class="cta-info-item">
-          <i class="fas fa-phone-alt"></i>
-          <span>(19) 99198-6100</span>
-        </div>
-        <div class="cta-info-item">
-          <i class="fas fa-envelope"></i>
-          <span>eletricahidraulicareis@gmail.com</span>
-        </div>
-        <div class="cta-info-item">
-          <i class="fas fa-map-marker-alt"></i>
-          <span>Campinas e Região</span>
+        <p>Soluções inteligentes, resultados que duram. Do pequeno reparo à grande solução, estamos com você!</p>
+        <div class="footer-social">
+          <a href="https://wa.me/5519991986100" target="_blank" class="social-btn wa"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a>
+          <a href="mailto:eletricahidraulicareis@gmail.com" class="social-btn"><i class="fas fa-envelope"></i></a>
         </div>
       </div>
-    </div>
-  </section>
-
-  <footer>
-    <div class="footer-inner">
-      <div class="footer-top">
-        <div class="footer-brand">
-          <a href="#inicio" class="logo-wrap footer-logo-link">
-            <div class="logo-icon"><span class="logo-emoji">⚡</span></div>
-            <div class="logo-text">
-              <div class="brand">REIS</div>
-              <div class="sub">Elétrica &amp; Hidráulica</div>
-            </div>
-          </a>
-          <p>Soluções inteligentes, resultados que duram. Do pequeno reparo à grande solução, estamos com você!</p>
-          <div class="footer-social">
-            <a href="https://wa.me/5519991986100" target="_blank" class="social-btn wa" rel="noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-            <a href="#" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="mailto:eletricahidraulicareis@gmail.com" class="social-btn" aria-label="E-mail"><i class="fas fa-envelope"></i></a>
-          </div>
-        </div>
-
-        <div class="footer-col">
-          <h4>Links Rápidos</h4>
-          <ul>
-            <li><a href="#inicio">Início</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#sobre">Sobre Nós</a></li>
-            <li><a href="#diferenciais">Diferenciais</a></li>
-            <li><a href="#contato">Contato</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h4>Serviços</h4>
-          <ul>
-            <li><a href="#servicos">Instalações Elétricas</a></li>
-            <li><a href="#servicos">Quadros Elétricos</a></li>
-            <li><a href="#servicos">Desentupimentos</a></li>
-            <li><a href="#servicos">Reparos de Vazamentos</a></li>
-            <li><a href="#servicos">Manutenção Geral</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h4>Contato</h4>
-          <div class="footer-contact-item">
-            <i class="fas fa-phone-alt"></i>
-            <span>(19) 99198-6100</span>
-          </div>
-          <div class="footer-contact-item">
-            <i class="fab fa-whatsapp"></i>
-            <span>(19) 99198-6100</span>
-          </div>
-          <div class="footer-contact-item">
-            <i class="fas fa-envelope"></i>
-            <span>eletricahidraulicareis@gmail.com</span>
-          </div>
-          <div class="footer-contact-item">
-            <i class="fas fa-map-marker-alt"></i>
-            <span>Campinas e Região</span>
-          </div>
-        </div>
+      <div class="footer-col">
+        <h4>Links Rápidos</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#diferenciais">Diferenciais</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
       </div>
-
-      <div class="footer-bottom">
-        <span>© 2026 Reis Elétrica &amp; Hidráulica. Todos os direitos reservados.</span>
-        <span>Desenvolvido com ❤️ para Campinas e Região</span>
+      <div class="footer-col">
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="#servicos">Instalações Elétricas</a></li>
+          <li><a href="#servicos">Quadros Elétricos</a></li>
+          <li><a href="#servicos">Desentupimentos</a></li>
+          <li><a href="#servicos">Reparos de Vazamentos</a></li>
+          <li><a href="#servicos">Manutenção Geral</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <div class="footer-contact-item"><i class="fas fa-phone-alt"></i><span>(19) 99198-6100</span></div>
+        <div class="footer-contact-item"><i class="fab fa-whatsapp"></i><span>(19) 99198-6100</span></div>
+        <div class="footer-contact-item"><i class="fas fa-envelope"></i><span>eletricahidraulicareis@gmail.com</span></div>
+        <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>Campinas e Região</span></div>
       </div>
     </div>
-  </footer>
+    <div class="footer-bottom">
+      <span>© 2026 Reis Elétrica &amp; Hidráulica. Todos os direitos reservados.</span>
+      <span class="footer-credit">Criado por você • <a href="https://wa.me/5519991986100" target="_blank" rel="noreferrer">WhatsApp</a></span>
+    </div>
+  </div>
+</footer>
 
-  <script src="./assets/js/main.js"></script>
+<script src="./assets/js/main.js"></script>
 </body>
 </html>
