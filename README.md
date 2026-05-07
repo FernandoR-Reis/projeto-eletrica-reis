@@ -13,7 +13,8 @@ Site institucional estático com foco em apresentação comercial, captação de
 │   └── js
 │       └── main.js
 ├── docs
-│   └── manutencao.md
+│   ├── manutencao.md
+│   └── atualizacao-2.0.md
 └── imagens na raiz (identidade visual)
 ```
 
@@ -35,6 +36,7 @@ Depois acesse: `http://localhost:5500`
 - E-mail: buscar por `eletricahidraulicareis@gmail.com` em `index.html`
 - Textos das seções: editar diretamente em `index.html`
 - Estilo visual (cores, espaçamentos): editar `:root` e classes em `assets/css/styles.css`
+- Atualização 2.0 integrada: consultar `docs/atualizacao-2.0.md`
 
 ## Publicação no GitHub
 
